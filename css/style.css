@@ -1,0 +1,67 @@
+@font-face {
+  font-family: BowlbyOne;
+  src: url(../fonts/BowlbyOne/BowlbyOne-Regular.ttf);
+}
+*{
+  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+  background-color: #ADD8E6;
+  text-align: center;
+  font-family: BowlbyOne;
+}
+img{
+  height: 400px;
+  margin-top: 20px;
+}
+.calculo h1{
+  font-size: 350%;
+}
+.calculo p{
+  font-size: 250%;
+}
+.calculo input{
+  margin-top: 20px;
+  border-radius: 50px;
+  width: 60%;
+  font-size: 200%;
+}
+.calculo button{
+  font-size: 200%;
+  margin-top: 20px;
+  width: 30%;
+  border-radius: 50px;
+  background-color: #00FFFF;
+  font-family: BowlbyOne;
+}
+.tab{
+  width: 90%;
+  margin-top: 20px;
+  margin-left: 5%;
+}
+th{
+  padding:4px 20px;
+  border-style:solid;
+  border-width:1px;
+  border-color:black;
+}
+td{
+  padding:4px 20px;
+  border-style:solid;
+  border-width:1px;
+  border-color:black;
+  font-family: Arial;
+  font-size: 120%;
+}
+@media only screen and (min-width: 1024px) {
+  *{
+    box-sizing: border-box;
+  	margin: 0;
+  	padding: 0;
+  }
+  img{
+    height: 200px;
+  }
+}
